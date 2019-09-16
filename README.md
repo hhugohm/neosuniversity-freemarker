@@ -6,7 +6,11 @@ Repositorio que tiene el ejemplo de un proyecto con Spring Boot 2.x y manejo de 
 Pasos para instalación de proyecto :neosuniversity-freemarker
 ----------------------------------
 1.- Crear una carpeta neosuniversity-freemarker (omitir este paso si se cloana el repositorio)
-2.- vi app.groovy (omitir este paso si se cloana el repositorio)
+
+2.-Ejecutar(omitir este paso si se cloana el repositorio)
+```ruby
+vi app.groovy 
+```
 ```ruby
 @Controller
 @Grab('spring-boot-starter-freemarker')
