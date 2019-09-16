@@ -20,8 +20,10 @@ class MyApp {
 	}
 	}
 ```
- 3.- crear una carpeta static y crear el archivo con contenido
+3.- crear una carpeta static y crear el archivo con contenido
+```ruby
  $ vi static\index.html
+ ```
  ```ruby
  <!DOCTYPE html>
 <html> 
