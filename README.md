@@ -7,6 +7,7 @@ Pasos para instalación de proyecto :neosuniversity-freemarker
 ----------------------------------
 1.- Crear una carpeta neosuniversity-freemarker (omitir este paso si se cloana el repositorio)
 2.- vi app.groovy (omitir este paso si se cloana el repositorio)
+```ruby
 @Controller
 @Grab('spring-boot-starter-freemarker')
 class MyApp {
@@ -18,6 +19,7 @@ class MyApp {
 		return "hello"
 	}
 	}
+```
  3.- crear una carpeta static y crear el archivo con contenido
  $ vi static\index.html
  ```
