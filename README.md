@@ -22,7 +22,7 @@ class MyApp {
 ```
  3.- crear una carpeta static y crear el archivo con contenido
  $ vi static\index.html
- ```
+ ```ruby
  <!DOCTYPE html>
 <html> 
 	<head>         <title>Home page</title>         <meta charset="UTF-8">     </head> 
@@ -37,7 +37,7 @@ class MyApp {
 ```
 4.- crear una carpeta templates y crear archivo con el contenido
 $ vi templates\hello.ftl
-```
+```ruby
 <!DOCTYPE html>
 <html>
     <head>
