@@ -38,7 +38,9 @@ class MyApp {
 </html>
 ```
 4.- crear una carpeta templates y crear archivo con el contenido
+```ruby
 $ vi templates\hello.ftl
+```
 ```ruby
 <!DOCTYPE html>
 <html>
@@ -52,8 +54,9 @@ $ vi templates\hello.ftl
 					</html>
 ```
 5.- Ejecutar (en caso de ser varios los archivos groovy debera ejecutar *.groovy)
+```ruby
 $ spring run app.groovy
-
+```
 6.- Abrir un browser y ejecutar
 http://localhost:8080/
 colocar el nombre: hugo click submit
@@ -61,6 +64,9 @@ http://localhost:8080/greet?name=hugo
 Hello hugo, today is a beautiful day!
 
 7.- Para empaquetar nuestra aplicacion ejecutar
+```ruby
 $ spring jar neosuniversity-freemaker.jar *.groovy
-
+```
+```ruby
 spring run app.groovy  -- --server.port=9000
+```
