@@ -17,7 +17,7 @@ class MyApp {
 		model.addAttribute("myname", name)
 		return "hello"
 	}
- }
+	}
  3.- crear una carpeta static y crear el archivo con contenido
  $ vi static\index.html
  
