@@ -35,7 +35,7 @@ class MyApp {
 ```
 4.- crear una carpeta templates y crear archivo con el contenido
 $ vi templates\hello.ftl
-
+```
 <!DOCTYPE html>
 <html>
     <head>
@@ -46,7 +46,7 @@ $ vi templates\hello.ftl
 			            <p>Hello ${myname}, today is a beautiful day!</p>
 				        </body>
 					</html>
-
+```
 5.- Ejecutar (en caso de ser varios los archivos groovy debera ejecutar *.groovy)
 $ spring run app.groovy
 
